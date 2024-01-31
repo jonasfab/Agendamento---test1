@@ -100,12 +100,14 @@ font-size: 25px;
     text-align: left;
     
 }
+
 .grid input {
     margin-left: 10px;
     border: 1px solid  rgb(149, 151, 150);
    border-radius: 6px;
    color: rgb(199, 199, 199);
 }
+
 
 .gridee input {
     margin-left: 10px;
@@ -115,6 +117,10 @@ font-size: 25px;
    
 }
 
+.agend label{
+font-size: 14px;
+font-weight: 800;
+}
 .grdet output {
     margin-left: 10px;
     border: 1px solid  rgb(149, 151, 150);
