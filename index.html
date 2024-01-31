@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de pessoas</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+    <script type="text/javascript">
+        jQuery(window).load(function ($) {
+            atualizaRelogio();
+        });
+    </script>
+</head>
+
+<body>
+
+    <a target="_blank"
+        href="https://docs.google.com/spreadsheets/d/1H09oY74rjdXq9uUIk970VCv4eu-p8zNdH8DlA4F0u3g/edit#gid=0"><img
+            src="icons8.png"></a>
+
+
+
+    <div id="inserirDados">
+
+        <div class="title">
+            <h1>AGENDAMENTO VEICULOS - MULTILOG</h1>
+        </div>
+
+
+        <div id="container">
+            <form action="https://api.sheetmonkey.io/form/syR1S7DXSjFn4yPKQfntQq" method="post">
+                <div class="label">
+                    <label class="cars" for="cars">CLIENTE</label>
+                    <select style="width: 150px" name="CLIENTE:">
+                        <option value=""></option>
+                        <option value="SIPCAM - 155874">SIPCAM - 155874</option>
+                        <option value="FAVINI - 857441">FAVINI - 857441</option>
+                        <option value="JOHNSON - 1548731">JOHNSON - 1548731</option>
+                        <option value="2S">2S</option>
+                    </select>
+
+                    <label class="cars" for="cars">MOTIVO DE ACESSO</label>
+                    <select style="width: 90px" name="MOTIVO DE ACESSO:">
+                        <option value=""></option>
+                        <option value="COLETA">COLETA</option>
+                        <option value="DESCARGA">DESCARGA</option>
+                        <option value="VISITANTE">VISITANTE</option>
+                    </select>
+
+                    <label class="cars" for="cars">TRANSPORTADORAS</label>
+                    <select style="width: 200px" name="TRANSPORTADORAS:">
+                        <option value=""></option>
+                        <option value="Retira - 47847178574153">Retira - 47847178574153</option>
+                        <option value="TRANSPORT - 58747852365487">TRANSPORT - 58747852365487</option>
+                        <option value="VENTURIAT - 58747242568746">VENTURIAT - 58747242568746</option>
+                    </select>
+
+                    <label class="cars" for="cars">TIPO DE VEICULO</label>
+                    <select style="width: 110px" name="TIPO DE VEICULO:">
+                        <option value=""></option>
+                        <option value="HR">HR</option>
+                        <option value="MOTO">MOTO</option>
+                        <option value="PASSEIO">PASSEIO</option>
+                        <option value="TOCO">TOCO</option>
+                        <option value="TRUCK">TRUCK</option>
+                    </select>
+                </div>
+                <div class="grdet">
+                    <div class="grid">
+                        <h1>DATA DO AGENDAMENTO<output type="date" name="DATA DO AGENDAMENTO" id="data"></output></h1>
+                        <h1>HORAS DO AGENDAMENTO<output type="date"  name="HORAS DO AGENDAMENTO" id="hora"></output></h1>
+                        <h1>CARGA<input style="width: 120px" type="number" name="CARGA" ></h1>
+                        <h1>DOCA<input style="width: 60px" type="number" name="DOCA" ></h1>
+                        <h1>NOME DO MOTORISTA<input style="width: 200px" type="text" name="NOME DO MOTORISTA" ></h1>
+                        <h1>DOCUMENTO DO MOTORISTA<input style="width: 130px" type="number" name="DOCUMENTO DO MOTORISTA" >
+                        </h1>
+                        <h1>1°PLACA<input style="width: 70px" type="text" name="1°PLACA" ></h1>
+                        <h1>2°PLACA<input style="width: 70px" type="text" name="2°PLACA" ></h1>
+                    </div>
+
+                    <div class="gridee">
+                        <h1>DATA DA COLETA<input style="width: 110px" type="date" name="DATA DA COLETA"></h1>
+                        <h1>HORAS DA COLETA<input style="width: 70px; padding: 0px 10px" type="time" name="HORAS DA COLETA"></h1>
+                        <h1>NOME DO AJUDANTE <input style="width: 200px" type="text" name="NOME DO AJUDANTE"> </h1>
+                            <h1>DOCUMENTO DO AJUDANTE<input style="width: 130px" type="number"
+                                    name="DOCUMENTO DO AJUDANTE"></h1>
+
+                            <div>
+
+                            </div>
+                            <div>
+
+                            </div>
+
+                    </div>
+                </div>
+                <button id="inserirPessoa">AGENDAR</button>
+            </form>
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+<script src="horas.js"></script>
+<script src="/scripts.js"></script>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</html>

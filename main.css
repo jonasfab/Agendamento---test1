@@ -1,0 +1,207 @@
+/*Root*/
+*{
+  background-color: #3D4D55;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+   
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+
+/*Container principal*/
+#container{
+    text-align: center;
+    
+    margin: 5px;
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+
+}
+
+#container
+.label { 
+position: relative;
+bottom: 20px;
+font-size: 18px;
+font-weight: 800
+}
+
+#container 
+select {
+    border: 1px solid  rgb(149, 151, 150);
+    border-radius: 6px; 
+    color: rgb(199, 199, 199);
+    width: 140px;
+}
+
+
+
+#container
+.cars {
+    padding: 10px;
+    
+}
+
+a img {
+    position: relative;
+    width: 50px;
+    margin: 20px;
+    z-index: 1;
+}
+
+a img:hover{
+    transform: scale(1.1);
+}
+#inserirDados
+.title h1{ 
+    position: relative;
+bottom: 80px;
+text-align: center;
+color: rgb(170, 170, 170);
+font-size: 25px;
+
+}
+
+#page-2
+.titl h1{
+    position: relative;
+    text-align: center;
+    color: rgb(170, 170, 170);
+    font-size: 25px;
+}
+#inserirDados {
+   position: relative;
+    top: 30px;
+    
+}
+.grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.grid h1 {
+    padding: 5px 5px 5px;
+    text-align: left;
+    
+}
+.grid input {
+    margin-left: 10px;
+    border: 1px solid  rgb(149, 151, 150);
+   border-radius: 6px;
+   color: rgb(199, 199, 199);
+}
+
+.gridee input {
+    margin-left: 10px;
+    border: 1px solid  rgb(149, 151, 150);
+   border-radius: 6px;
+   color: rgb(199, 199, 199);
+   
+}
+
+.grdet output {
+    margin-left: 10px;
+    border: 1px solid  rgb(149, 151, 150);
+   border-radius: 6px;
+   color: rgb(199, 199, 199);
+   font-size: 14px;
+   padding: 1px 8px;
+}
+.gridee h1 {
+    padding: 5px 5px 5px;
+    text-align: left;
+    
+}
+.grdet {
+    display: flex;
+    justify-content: center;
+  
+}
+/*Campos do formulário*/
+#inserirDados button{
+    margin: 1px 0 1px 0;
+    padding: 3px;
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+}
+#page-1
+#inserirDados input{
+    width: 100px;
+}
+
+#inserirDados button{
+    width: 90px;
+    border: 0;
+    border-radius: 8px;
+  
+    color: rgb(248, 248, 248);
+    background-color: rgb(38, 98, 230);
+    position: relative;
+    top: 50px;
+    transition: .3s;
+}
+#inserirDados button:hover {
+    cursor: pointer;
+    background-color: rgb(42, 89, 190);
+    transition: .3s;
+   
+}
+
+
+
+/*Tabela*/
+#page-2
+#cadastrosPessoa{
+    margin: auto;
+    border-collapse: collapse;
+    text-align: left;
+    position: relative;
+    top: 50px;
+    
+}
+#page-2
+#cadastrosPessoa th{
+    background-color: #B58863;
+    border: 1px solid  #B58863;
+    min-width: 80px;
+    padding: 0px 5px;
+    font-size: 12px;
+    color: #363636;
+}
+
+#cadastrosPessoa td{
+    border: 1px solid  #B58863;
+    font-weight: normal;
+color: #c5c5c5;
+    padding: 1px;
+}
+
+#cadastrosPessoa .material-icons{
+    cursor:pointer;
+    color: aqua;
+    transition: .3s;
+}
+
+#cadastrosPessoa .material-icons:hover{
+    
+    color: tomato;
+    transition: .3s;
+}
+  
